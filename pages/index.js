@@ -7,7 +7,7 @@ export default function Home() {
 
       <p style={{ fontSize: "18px", marginBottom: "30px" }}>
 <div style={{ marginTop: "20px", marginBottom: "40px" }}>
-  <a href="https://youtube.com/@YOURCHANNEL" target="_blank">
+  <a href="https://www.youtube.com/@mckaysalesandlifecoaching" target="_blank">
     <button style={{
       padding: "14px 24px",
       background: "#111",
