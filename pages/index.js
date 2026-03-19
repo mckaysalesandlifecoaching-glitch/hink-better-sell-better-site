@@ -39,7 +39,26 @@ export default function Home() {
       <hr style={{ margin: "40px 0" }} />
 
       <h2>Let’s Connect</h2>
+<div style={{ marginTop: "40px", marginBottom: "30px" }}>
+  <p style={{ fontWeight: "bold", marginBottom: "10px" }}>
+    Connect with me professionally:
+  </p>
 
+  <a 
+    href="https://linkedin.com/in/YOURPROFILE" 
+    target="_blank"
+    style={{
+      display: "inline-block",
+      padding: "10px 16px",
+      background: "#0077b5",
+      color: "white",
+      textDecoration: "none",
+      borderRadius: "6px"
+    }}
+  >
+    View My LinkedIn
+  </a>
+</div>
       <form action="https://formspree.io/f/xeervwbl" method="POST">
         <input type="hidden" name="_subject" value="New Lead - Think Better Sell Better" />
 
