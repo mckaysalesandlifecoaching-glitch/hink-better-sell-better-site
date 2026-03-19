@@ -1,0 +1,57 @@
+export default function Home() {
+  return (
+    <div style={{ fontFamily: "Arial", padding: "40px", maxWidth: "900px", margin: "0 auto" }}>
+      <h1 style={{ fontSize: "40px", marginBottom: "20px" }}>
+        Turn Better Conversations Into Better Sales Opportunities
+      </h1>
+
+      <p style={{ fontSize: "18px", marginBottom: "30px" }}>
+        I help sales professionals, business owners, and entrepreneurs improve how they connect, communicate, and close.
+      </p>
+
+      <h2>Who I Am</h2>
+      <p>
+        I’m Skylar Mckay, a sales professional with 10+ years of experience in revenue generation,
+        consultative selling, and business growth.
+      </p>
+
+      <h2>Who I Serve</h2>
+      <p>
+        I work with business owners and sales professionals who want to increase their close rates,
+        improve their messaging, and build stronger pipelines.
+      </p>
+
+      <hr style={{ margin: "40px 0" }} />
+
+      <h2>Let’s Connect</h2>
+
+      <form action="https://formspree.io/f/xeervwbl" method="POST">
+        <input type="hidden" name="_subject" value="New Lead - Think Better Sell Better" />
+
+        <div style={{ marginBottom: "10px" }}>
+          <input name="first_name" placeholder="First Name" style={{ width: "100%", padding: "10px" }} />
+        </div>
+
+        <div style={{ marginBottom: "10px" }}>
+          <input name="last_name" placeholder="Last Name" style={{ width: "100%", padding: "10px" }} />
+        </div>
+
+        <div style={{ marginBottom: "10px" }}>
+          <input name="email" type="email" placeholder="Email" style={{ width: "100%", padding: "10px" }} />
+        </div>
+
+        <div style={{ marginBottom: "10px" }}>
+          <textarea
+            name="business_description"
+            placeholder="Tell me about your business"
+            style={{ width: "100%", padding: "10px", height: "120px" }}
+          />
+        </div>
+
+        <button type="submit" style={{ padding: "12px 20px", background: "black", color: "white" }}>
+          Submit
+        </button>
+      </form>
+    </div>
+  );
+}
