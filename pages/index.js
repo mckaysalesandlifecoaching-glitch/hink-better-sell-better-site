@@ -6,6 +6,18 @@ export default function Home() {
       </h1>
 
       <p style={{ fontSize: "18px", marginBottom: "30px" }}>
+<a href="https://www.youtube.com/@mckaysalesandlifecoaching" target="_blank">
+  <button style={{
+    padding: "12px 20px",
+    background: "red",
+    color: "white",
+    border: "none",
+    marginBottom: "30px",
+    cursor: "pointer"
+  }}>
+    Watch My YouTube Content
+  </button>
+</a>
         I help sales professionals, business owners, and entrepreneurs improve how they connect, communicate, and close.
       </p>
 
