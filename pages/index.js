@@ -45,7 +45,7 @@ export default function Home() {
   </p>
 
   <a 
-    href="https://linkedin.com/in/YOURPROFILE" 
+    href="https://www.linkedin.com/in/skylar-mckay-37456b65/" 
     target="_blank"
     style={{
       display: "inline-block",
