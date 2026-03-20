@@ -1,29 +1,48 @@
 export default function Home() {
   return (
     <div style={{ fontFamily: "Arial", padding: "40px", maxWidth: "900px", margin: "0 auto" }}>
-      <h1 style={{ fontSize: "40px", marginBottom: "20px" }}>
+
+      {/* LOGO */}
+      <div style={{ marginBottom: "30px", textAlign: "center" }}>
+        <img 
+          src="/logo.png" 
+          alt="Think Better Sell Better Logo" 
+          style={{ maxWidth: "280px", border: "3px solid red" }}
+        />
+      </div>
+
+      {/* HEADLINE */}
+      <h1 style={{ fontSize: "40px", marginBottom: "20px", textAlign: "center" }}>
         Turn Better Conversations Into Better Sales Opportunities
       </h1>
 
-      <p style={{ fontSize: "18px", marginBottom: "30px" }}>
-<div style={{ marginTop: "20px", marginBottom: "40px" }}>
-  <a href="https://www.youtube.com/@mckaysalesandlifecoaching" target="_blank">
-    <button style={{
-      padding: "14px 24px",
-      background: "#111",
-      color: "white",
-      border: "none",
-      borderRadius: "6px",
-      fontSize: "16px",
-      cursor: "pointer"
-    }}>
-      Watch My YouTube Content
-    </button>
-  </a>
-</div>
+      {/* SUBTEXT */}
+      <p style={{ fontSize: "18px", marginBottom: "30px", textAlign: "center" }}>
         I help sales professionals, business owners, and entrepreneurs improve how they connect, communicate, and close.
       </p>
 
+      {/* YOUTUBE BUTTON */}
+      <div style={{ marginTop: "20px", marginBottom: "40px", textAlign: "center" }}>
+        <a 
+          href="https://www.youtube.com/@mckaysalesandlifecoaching" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          <button style={{
+            padding: "14px 24px",
+            background: "#111",
+            color: "white",
+            border: "none",
+            borderRadius: "6px",
+            fontSize: "16px",
+            cursor: "pointer"
+          }}>
+            Watch My YouTube Content
+          </button>
+        </a>
+      </div>
+
+      {/* ABOUT */}
       <h2>Who I Am</h2>
       <p>
         I’m Skylar Mckay, a sales professional with 10+ years of experience in revenue generation,
@@ -38,27 +57,34 @@ export default function Home() {
 
       <hr style={{ margin: "40px 0" }} />
 
-      <h2>Let’s Connect</h2>
-<div style={{ marginTop: "40px", marginBottom: "30px" }}>
-  <p style={{ fontWeight: "bold", marginBottom: "10px" }}>
-    Connect with me professionally:
-  </p>
+     
+      
+      {/* LINKEDIN */}
+      <div style={{ marginTop: "40px", marginBottom: "30px", textAlign: "center" }}>
+        <p style={{ fontWeight: "bold", marginBottom: "10px" }}>
+          Connect with me professionally:
+        </p>
 
-  <a 
-    href="https://www.linkedin.com/in/skylar-mckay-37456b65/" 
-    target="_blank"
-    style={{
-      display: "inline-block",
-      padding: "10px 16px",
-      background: "#0077b5",
-      color: "white",
-      textDecoration: "none",
-      borderRadius: "6px"
-    }}
-  >
-    View My LinkedIn
-  </a>
-</div>
+        <a 
+          href="https://www.linkedin.com/in/skylar-mckay-37456b65/" 
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: "inline-block",
+            padding: "10px 16px",
+            background: "#0077b5",
+            color: "white",
+            textDecoration: "none",
+            borderRadius: "6px"
+          }}
+        >
+          View My LinkedIn
+        </a>
+      </div>
+
+      {/* FORM */}
+      <h2>Let’s Connect</h2>
+
       <form action="https://formspree.io/f/xeervwbl" method="POST">
         <input type="hidden" name="_subject" value="New Lead - Think Better Sell Better" />
 
@@ -86,6 +112,7 @@ export default function Home() {
           Submit
         </button>
       </form>
+
     </div>
   );
 }
