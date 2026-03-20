@@ -3,13 +3,20 @@ export default function Home() {
     <div style={{ fontFamily: "Arial", padding: "40px", maxWidth: "900px", margin: "0 auto" }}>
 
       {/* LOGO */}
-      <div style={{ marginBottom: "30px", textAlign: "center" }}>
-        <img 
-          src="/logo.png" 
-          alt="Think Better Sell Better Logo" 
-          style={{ maxWidth: "280px", border: "3px solid red" }}
-        />
-      </div>
+       <div style={{ marginBottom: "40px", textAlign: "center" }}>
+  <img 
+    src="/logo.png" 
+    alt="Think Better Sell Better Logo"
+    style={{ 
+      width: "100%",
+      maxWidth: "420px",
+      height: "auto",
+      display: "block",
+      margin: "0 auto",
+      backgroundColor: "transparent"
+    }}
+  />
+</div>
 
       {/* HEADLINE */}
       <h1 style={{ fontSize: "40px", marginBottom: "20px", textAlign: "center" }}>
